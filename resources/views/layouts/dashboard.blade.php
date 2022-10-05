@@ -2,5 +2,5 @@
 
 @section('content')
     <h1>Framework: Laravel 8 </h1>
-    <h2>Develper : Zeeshan Daud</h2>
+    <h2>Developer : Zeeshan Daud</h2>
 @endsection
