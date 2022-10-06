@@ -47,25 +47,24 @@
                                 <p>Simple Crud</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ url('users/excel') }}" class="nav-link" >
+                                <i class="nav-icon fas fa-file-excel"></i>
+                                <p>
+                                    Execel Import & E-Mail
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('yajra') }}" class="nav-link" >
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Yajra DataTable Crud
+                                </p>
+                            </a>
+                        </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ url('users/excel') }}" class="nav-link" >
-                        <i class="nav-icon fas fa-file-excel"></i>
-                        <p>
-                            Execel Import & E-Mail
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('yajra') }}" class="nav-link" >
-                        <i class="nav-icon fas fa-table"></i>
-                        <p>
-                            Yajra DataTable Crud
-                        </p>
-                    </a>
-                </li>
-
                 <li class="nav-item">
                     <form action="{{ route('logout') }}" method="POST">
                         @csrf
