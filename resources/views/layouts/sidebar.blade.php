@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="{{ route('layouts.dashboard') }}" class="brand-link">
         <img src={{ asset('images/mobile-phone-1917737_640.jpg') }} alt="AdminLTE" class="brand-image img-circle elevation-3" style="">
         <span class="brand-text font-weight-light">Daud IT Service</span>
     </a>
