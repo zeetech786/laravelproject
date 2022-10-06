@@ -38,7 +38,7 @@
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>Name</th>
+                            <th>Company Name</th>
                             <th>Firstname</th>
                             <th>Lastname</th>
                             <th>Street</th>
